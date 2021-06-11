@@ -1,7 +1,7 @@
 from google.cloud import datastore
 
 
-class DotzDatastoreClient:
+class DatastoreClient:
     """Datastore client for common datastore operations"""
 
     def __init__(self, project_id, namespace):
