@@ -2,7 +2,7 @@ from google.cloud import datacatalog
 from google.api_core.exceptions import AlreadyExists
 
 
-class DotzDataCatalogClient:
+class DataCatalogClient:
     def __init__(self, project, location, credentials=None):
         self.project = project
         self.location = location
