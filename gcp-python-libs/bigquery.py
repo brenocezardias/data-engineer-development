@@ -4,7 +4,7 @@ from google.cloud import bigquery
 from google.api_core.exceptions import NotFound, Conflict
 
 
-class DotzBigQueryClient:
+class BigQueryClient:
     """BigQuery client for common bigquery operations"""
 
     def __init__(self, project):
