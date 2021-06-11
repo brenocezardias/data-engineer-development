@@ -1,6 +1,6 @@
 from google.cloud import storage
 
-class DotzGCSClient:
+class GCSClient:
     def __init__(self, project):
         self.client = storage.Client(project)
     def upload_from_string(self, data, bucket_name, blob_name):
